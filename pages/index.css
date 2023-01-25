@@ -9,3 +9,11 @@
 @import url(../blocks/header/__lang/_underlined/header__lang_underlined.css);
 /* Logo */
 @import url(../blocks/logo/logo.css);
+/* Content */
+@import url(../blocks/content/content.css);
+/* Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__map/lead__map.css);
+@import url(../blocks/lead/__text/lead__text.css);
