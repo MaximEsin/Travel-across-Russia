@@ -1,0 +1,11 @@
+.cover__overlay {
+  width: 1184px;
+  height: 740px;
+  color: #2a2c2f;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+}
