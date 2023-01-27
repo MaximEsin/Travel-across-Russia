@@ -4,3 +4,9 @@
   grid-template-columns: repeat(2, 1fr);
   max-width: 984px;
 }
+
+@media all and (min-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}

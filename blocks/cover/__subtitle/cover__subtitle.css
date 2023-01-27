@@ -9,3 +9,9 @@
   max-width: 360px;
   top: 410px;
 }
+
+@media all and (min-width: 1024px) {
+  .cover__subtitle {
+    top: 360px;
+  }
+}

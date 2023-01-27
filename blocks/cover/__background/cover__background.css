@@ -2,3 +2,10 @@
   width: 1184px;
   height: 740px;
 }
+
+@media all and (min-width: 1024px) {
+  .cover__background {
+    width: 1024px;
+    height: 640px;
+  }
+}

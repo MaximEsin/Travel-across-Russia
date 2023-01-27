@@ -2,3 +2,10 @@
   width: 984px;
   height: 615px;
 }
+
+@media all and (min-width: 1024px) {
+  .lead__map {
+    width: 928px;
+    height: 580px;
+  }
+}

@@ -8,3 +8,10 @@
   margin: 32px 0 64px;
   max-width: 640px;
 }
+
+@media all and (min-width: 1024px) {
+  .lead__subtitle {
+    letter-spacing: 0.1px;
+    margin-bottom: 56px;
+  }
+}

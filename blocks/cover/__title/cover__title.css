@@ -9,3 +9,9 @@
   top: 183px;
   max-width: 560px;
 }
+
+@media all and (min-width: 1024px) {
+  .cover__title {
+    top: 134px;
+  }
+}
