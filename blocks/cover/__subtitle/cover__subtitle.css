@@ -10,8 +10,14 @@
   top: 410px;
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width: 1280px) {
   .cover__subtitle {
     top: 360px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .cover__subtitle {
+    top: 280px;
   }
 }

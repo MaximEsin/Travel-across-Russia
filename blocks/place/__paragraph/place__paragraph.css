@@ -9,3 +9,10 @@
   margin: 0;
   padding-left: 8px;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 25.9px;
+  }
+}
