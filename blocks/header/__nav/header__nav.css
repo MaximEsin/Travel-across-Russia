@@ -8,3 +8,11 @@
   line-height: 28px;
   color: #ffffff;
 }
+
+@media all and (max-width: 767px) {
+  .header__nav {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

@@ -8,16 +8,26 @@
   position: absolute;
   top: 183px;
   max-width: 560px;
+  margin: 0;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
   .cover__title {
     top: 134px;
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .cover__title {
     top: 55px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 109%;
+    top: 29px;
+    max-width: 250px;
   }
 }

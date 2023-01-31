@@ -6,3 +6,11 @@
   color: #ffffff;
   margin: 40px 0 0;
 }
+
+@media all and (max-width: 767px) {
+  .intro__text {
+    min-width: 290px;
+    word-wrap: normal;
+    white-space: normal;
+  }
+}

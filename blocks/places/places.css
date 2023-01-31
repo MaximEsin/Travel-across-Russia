@@ -5,9 +5,16 @@
   gap: 80px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .places {
     margin-top: 88px;
     gap: 73px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .places {
+    margin-top: 64px;
+    gap: 50px;
   }
 }
