@@ -1,8 +1,5 @@
 /* Fonts */
-@font-face {
-  font-family: 'Inter';
-  src: url(../vendor/Inter-3.19/Inter\ Desktop/);
-}
+
 .root {
   font-family: 'Inter';
   background-color: #2a2c2f;

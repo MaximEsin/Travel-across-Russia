@@ -1,18 +1,29 @@
 .cover {
   margin-top: 92px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   position: relative;
+  min-height: 740px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    margin-top: 40px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin-top: 90px;
+    min-height: 480px;
+    margin-top: 85px;
   }
 }
 
 @media all and (max-width: 767px) {
   .cover {
-    margin-top: 40px;
+    margin-top: 35px;
+    min-height: 200px;
   }
 }
