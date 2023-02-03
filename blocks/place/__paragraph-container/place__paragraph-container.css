@@ -12,7 +12,6 @@
 
 @media all and (max-width: 767px) {
   .place__paragraph-container {
-    gap: 25px;
     margin-top: 32px;
   }
 }

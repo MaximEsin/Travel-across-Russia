@@ -1,30 +1,8 @@
 .cover__background {
-  width: 1184px;
-  height: 740px;
   background: url(../../../images/cover-trains.jpg) 100% no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-@media all and (max-width: 1279px) {
-  .cover__background {
-    width: 1005px;
-    height: 640px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-  .cover__background {
-    width: 768px;
-    height: 480px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .cover__background {
-    width: 320px;
-    height: 200px;
-  }
+  z-index: 0;
 }
