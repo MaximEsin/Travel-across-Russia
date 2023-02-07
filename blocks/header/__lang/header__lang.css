@@ -1,4 +1,10 @@
 .header__lang {
   margin: 0;
   margin-bottom: 5px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.header__lang:hover {
+  opacity: 0.8;
 }
