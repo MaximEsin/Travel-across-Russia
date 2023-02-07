@@ -14,10 +14,10 @@
     <div class="root">
       <header class="header">
         <img class="logo" src="./images/logo.svg" alt="Логотип" />
-        <nav class="header__nav">
-          <p class="header__lang header__lang_underlined">Ru</p>
-          <p class="header__lang">En</p>
-        </nav>
+        <ul class="header__nav">
+          <li class="header__lang header__lang_active">Ru</li>
+          <li class="header__lang">En</li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
@@ -34,7 +34,7 @@
             <p class="lead__caption">ваша полка — верхняя</p>
           </div>
         </section>
-        <article class="intro">
+        <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -49,13 +49,21 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+            <li>
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__span-accent">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__span-accent">16</span>
+            </li>
+            <li>
+              Природных заповедников <span class="intro__span-accent">105</span>
+            </li>
+            <li>Аэропортов <span class="intro__span-accent">241</span></li>
           </ul>
-        </article>
+        </section>
         <section class="photo-grid">
           <img
             class="photo-grid__image"
@@ -108,7 +116,7 @@
         </section>
         <section class="places">
           <div class="place">
-            <h3 class="place__title">Куршская коса</h3>
+            <h2 class="place__title">Куршская коса</h2>
             <img
               src="./images/Kosa.png"
               class="place__image"
@@ -139,7 +147,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Кольский</h3>
+            <h2 class="place__title">Кольский</h2>
             <img
               src="./images/Kolsky.jpg"
               class="place__image"
@@ -172,7 +180,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Алтай</h3>
+            <h2 class="place__title">Алтай</h2>
             <img src="./images/Altai.jpg" class="place__image" alt="Алтай" />
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -201,7 +209,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+            <h2 class="place__title">Зимний Байкал</h2>
             <img
               src="./images/Baikal.jpg"
               class="place__image"
@@ -233,7 +241,7 @@
             </div>
           </div>
           <div class="place">
-            <h3 class="place__title">Карелия</h3>
+            <h2 class="place__title">Карелия</h2>
             <img
               src="./images/Karelia.jpg"
               class="place__image"
@@ -275,7 +283,7 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__links">
+        <nav class="footer__links">
           <a href="https://yandex.ru/maps" target="_blank" class="footer__link"
             >Карты</a
           >
@@ -300,7 +308,7 @@
             class="footer__link"
             >Путешествия</a
           >
-        </div>
+        </nav>
         <p class="footer__copyright">© 2023. Максим Есин</p>
       </footer>
     </div>
