@@ -7,25 +7,26 @@
   cursor: pointer;
   position: absolute;
   z-index: 0;
+  height: 100%;
 }
 
 @media all and (max-width: 1279px) {
   .cover__overlay {
-    width: 1005px;
+    min-width: 1005px;
     min-height: 640px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .cover__overlay {
-    width: 768px;
+    min-width: 768px;
     min-height: 480px;
   }
 }
 
 @media all and (max-width: 767px) {
   .cover__overlay {
-    width: 320px;
+    min-width: 320px;
     min-height: 200px;
   }
 }
