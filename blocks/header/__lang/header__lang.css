@@ -3,6 +3,8 @@
   margin-bottom: 5px;
   transition: opacity 0.3s ease;
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .header__lang:hover {
