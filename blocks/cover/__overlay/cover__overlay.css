@@ -1,5 +1,5 @@
 .cover__overlay {
-  width: 1184px;
+  min-width: 1184px;
   min-height: 740px;
   transition: opacity 0.3s ease;
   background-color: #2a2c2f;
