@@ -1,9 +1,18 @@
-# Проект: Путешествие по России
+# Travel across Russia
 
-### Обзор
+#Description
+- This is a website about travelling across Russian. It is made in russian language.
 
-- Это сайт о путешествиях по России. Тут находится информация о красивых местах нашей родины с изображениями.
-- В проекте использована технология построения сетки flexbox и grid.
-- Сайт адаптивен под разные устройства при помощи медиазапросов.
-- Для структуризации стилей использован nested BEM.
-- Ссылка на GitHub Pages https://maximesin.github.io/russian-travel-bootcamp/
+#Functionality
+- This website is fully adaptive pn any device.
+
+#Stack
+- HTML, CSS.
+
+#Needed dependencies
+- None
+
+#Plans for future
+- No plans
+
+GitHub Pages https://maximesin.github.io/russian-travel-bootcamp/
